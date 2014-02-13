@@ -1,0 +1,68 @@
+.style-clear {
+	clear : both;
+}
+.style-left {
+	float : left;
+}
+.style-center {
+	margin-left  : auto;
+	margin-right : auto;
+}
+.style-right {
+	float : right;
+}
+body {
+	margin           : 0;
+	font-size        : 14px;
+	font-family      : "Helvetica Neue", "华文中宋", Helvetica, Arial, sans-serif;
+}
+#top {
+	height           : 30px;
+	padding          : 3px 0px;
+	background-color : #222;
+}
+#top-navi {
+	width : 708px;
+}
+#user {
+	width : 50px;
+}
+.top-bar {
+	display : inline-block;
+}
+.top-bar a {
+	margin          : 0 10px;
+	color           : #FFF;
+	text-decoration : none;
+	text-align      : center;
+	line-height     : 30px;
+	display         : inline-block;
+}
+#background-img {
+	position : absolute;
+	z-index  : -1;
+}
+#logo {
+	position : relative;
+	z-index  : 1000;
+}
+#intro {
+	font-size : 20px;
+	color     : #EEE;
+}
+.intro-elem {
+	width   : 250px;
+	display : inline-block;
+}
+#command-bar {
+	width  : 1005px;
+}
+.command-elem {
+	margin    : 0 100px;
+	display   : inline-block;
+	font-size : 30px;
+	color     : #FFF;
+}
+.detail {
+	font-size : 18px;
+}
