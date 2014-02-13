@@ -39,12 +39,16 @@ body {
 	display         : inline-block;
 }
 #background-img {
-	position : absolute;
-	z-index  : -1;
+	position         : absolute;
+	z-index          : -1;
+	background-image : url(../pic/background.png);
+	background-size  : 100%;
 }
 #logo {
-	position : relative;
-	z-index  : 1000;
+	position         : relative;
+	z-index          : 1000;
+	background-image : url(../pic/logo.png);
+	background-size  : 100%;
 }
 #intro {
 	font-size : 20px;

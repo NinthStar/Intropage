@@ -1,8 +1,5 @@
 $(document).ready(function () {
-	$("#background-img").css({"backgroundImage" : "url(pic/background.png)",
-	                          "backgroundSize"  : "100%"});
-	$("#logo").css({"backgroundImage" : "url(pic/logo.png)",
-					"backgroundSize"  : "100%"}).fadeTo(0, 0.5);
+	$("#logo").fadeTo(0, 0.5);
 	$("#intro").fadeTo(0, 0);
 	
 	backgroundImageResize();

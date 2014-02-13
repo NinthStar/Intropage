@@ -1,14 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 	<head>
+		<!--[if lt IE 7]>
+		<script type="text/javascript">window.location="ie6.html";</script>
+		<![endif]-->
 		<meta charset="UTF-8" />
 		<title> 潮汐音乐节 - 寻觅自身的归属 </title>
 		<link rel="stylesheet" href="css/template.css"></link>
+		<!--[if lt IE 9]>
+		<link rel="stylesheet" href="/css/ie8.css"/>
+		<![endif]-->
 		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
 	</head>
 	<body>
 		<audio loop autoplay>
-			<source src=<?=base_url() . "pic/sound.mp3"; ?> type="audio/mpeg"></source>
+			<source src="pic/sound.mp3" type="audio/mpeg"></source>
 		</audio>
 		<div id="top">
 			<div id="top-navi" class="top-bar style-left">
@@ -24,7 +30,8 @@
 			</div>
 			<div class="style-clear"></div>
 		</div>
-		<div id="container"><div id="background-img"></div>
+		<div id="container">
+<div id="background-img"></div>
 <div id="logo" class="style-center"></div>
 <div id="intro" class="style-center">
 	<div class="intro-elem style-left">

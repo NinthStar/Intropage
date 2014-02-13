@@ -1,0 +1,10 @@
+#background-img {
+	background-image : "";
+	filter           : progid:DXImageTransform.Microsoft.AlphaImageLoader(src='pic/background.png',sizingMethod='scale');
+	-ms-filter       : "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='pic/background.png',sizingMethod='scale')";
+}
+#logo {
+	background-image : "";
+	filter           : progid:DXImageTransform.Microsoft.AlphaImageLoader(src='pic/logo.png',sizingMethod='scale');
+	-ms-filter       : "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='pic/logo.png',sizingMethod='scale')";
+}
